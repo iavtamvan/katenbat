@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.latihan.canc.katenbat.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d02918"
+        android:orientation="vertical"
+        android:layout_marginBottom="1dp"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:src="@drawable/actionbar2"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/reloadbanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:background="#2e2e2e">
+        <TextView
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RELOAD BANNER"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/market"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/Katenbat1">
+            </com.google.android.gms.ads.AdView>
+
+            <!--<com.google.android.gms.ads.AdView-->
+                <!--android:id="@+id/market1"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--ads:adSize="BANNER"-->
+                <!--ads:adUnitId="@string/Rafli">-->
+            <!--</com.google.android.gms.ads.AdView>-->
+
+            <!--<com.google.android.gms.ads.AdView-->
+                <!--android:id="@+id/market2"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--ads:adSize="BANNER"-->
+                <!--ads:adUnitId="@string/Hadi">-->
+            <!--</com.google.android.gms.ads.AdView>-->
+
+            <!--<com.google.android.gms.ads.AdView-->
+                <!--android:id="@+id/market3"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--ads:adSize="BANNER"-->
+                <!--ads:adUnitId="@string/Katenbat1">-->
+            <!--</com.google.android.gms.ads.AdView>-->
+
+            <!--<com.google.android.gms.ads.AdView-->
+                <!--android:id="@+id/market4"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--ads:adSize="BANNER"-->
+                <!--ads:adUnitId="@string/Rafli">-->
+            <!--</com.google.android.gms.ads.AdView>-->
+
+            <!--<com.google.android.gms.ads.AdView-->
+                <!--android:id="@+id/market5"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--ads:adSize="BANNER"-->
+                <!--ads:adUnitId="@string/Hadi">-->
+            <!--</com.google.android.gms.ads.AdView>-->
+
+            <!--<com.google.android.gms.ads.AdView-->
+                <!--android:id="@+id/market6"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--ads:adSize="BANNER"-->
+                <!--ads:adUnitId="@string/Katenbat1">-->
+            <!--</com.google.android.gms.ads.AdView>-->
+
+            <!--<com.google.android.gms.ads.AdView-->
+                <!--android:id="@+id/market7"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--ads:adSize="BANNER"-->
+                <!--ads:adUnitId="@string/Rafli">-->
+            <!--</com.google.android.gms.ads.AdView>-->
+
+            <!--<com.google.android.gms.ads.AdView-->
+                <!--android:id="@+id/market8"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--ads:adSize="BANNER"-->
+                <!--ads:adUnitId="@string/Hadi">-->
+            <!--</com.google.android.gms.ads.AdView>-->
+
+            <!--<com.google.android.gms.ads.AdView-->
+                <!--android:id="@+id/market9"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--ads:adSize="BANNER"-->
+                <!--ads:adUnitId="@string/Katenbat1">-->
+            <!--</com.google.android.gms.ads.AdView>-->
+
+            <!--<com.google.android.gms.ads.AdView-->
+                <!--android:id="@+id/market10"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--ads:adSize="BANNER"-->
+                <!--ads:adUnitId="@string/Katenbat1">-->
+            <!--</com.google.android.gms.ads.AdView>-->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
